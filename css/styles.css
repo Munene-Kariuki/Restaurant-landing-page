@@ -71,6 +71,17 @@ nav ul li:hover {
     margin-top: 5%;
 }
 
+
+.price {
+    margin-left: 60%;
+    background-color: green;
+    width: 5%;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* rating  */
 .rating {
     margin-left: 70%;
     position: relative;
