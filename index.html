@@ -9,21 +9,50 @@
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poppins:wght@100;200;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/1f9bd53e33.js" crossorigin="anonymous"></script>
     <script defer type="text/javascript" src="./src/script.js"></script>
 </head>
 
 <body>
+    <!-- title  -->
     <h1>PUZZLES</h1>
     <hr>
+
+    <!-- menu  -->
     <header class="menu">
-        <h2 class="menu">Menu</h2>
+        <h2>Menu</h2>
         <nav>
             <ul id="menuItems">
                 <li>Food name</li>
-                <li>Another food name</li>
+                <li>Food name</li>
             </ul>
         </nav>
     </header>
+
+    <section class="display-area">
+        <div id="display">
+            <h2 id="name">Food name</h2>
+            <p class="rating"><i class="fa-solid fa-star"></i><span id="rating">4.5</span></p>
+            <img id="image" src="./assets/download.png" alt="image goes here">
+            <p><em id="description">About item</em></p>
+        </div>
+
+        <!-- reviews  -->
+        <div class="reviews">
+            <h3>Customer reviews</h3>
+            <ul id="reviewList">
+                <li>Review 1</li>
+                <li>Review 2</li>
+            </ul>
+        </div>
+
+        <!-- Reviews form  -->
+        <form id="reviewForm">
+            <label for="form">Add review:</label>
+            <textarea id="review"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
 </body>
 
 </html>
