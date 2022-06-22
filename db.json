@@ -78,6 +78,38 @@
         "Those chapati's touched my soul.",
         "The goat of city restaurants"
       ]
+    },
+    {
+      "name": "Chicken lovers platter.",
+      "rating": 4.8,
+      "image": "https://media.istockphoto.com/photos/red-bucket-of-fried-chicken-on-white-background-2-picture-id576730586?k=20&m=576730586&s=612x612&w=0&h=2hSiLcqHhT2pC6QLph1jXtV8rOeff68JcZNp5WhSprE=",
+      "price": 1150,
+      "description": "12 pieces family bucket + 2l soda.",
+      "reviews": [
+        "Great food, good value. My go to place.",
+        "Best for on the way pick up and go."
+      ]
+    },
+    {
+      "name": "Milk shakes.",
+      "rating": 4.0,
+      "image": "https://png.pngitem.com/pimgs/s/126-1267420_milkshake-png-transparent-file-milkshake-png-png-download.png",
+      "price": 250,
+      "description": "Vanilla, strawberry and chocolate flavors",
+      "reviews": ["Favorite drink for a hot day.", "Vanilla anyday anytime"]
+    },
+    {
+      "name": "Cocktails.",
+      "rating": 4.9,
+      "image": "https://toppng.com/uploads/preview/cocktails-11545685663imusonh6no.png",
+      "price": 350,
+      "description": "It's drink o'clock",
+      "reviews": [
+          "I don't remeber anything!!",
+          "Smooth and crisp as I like them!",
+          "A river of joy.",
+          "Beep beep you're drunk"
+      ]
     }
   ]
 }
