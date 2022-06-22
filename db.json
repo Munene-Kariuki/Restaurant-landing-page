@@ -2,7 +2,9 @@
   "menuItems": [
     {
       "name": "Breakfast combo",
+      "rating": 4.2,
       "image": "https://www.pngall.com/wp-content/uploads/7/Morning-Breakfast-PNG-Free-Download.png",
+      "price": 350,
       "description": "2 fried eggs, 2 sausages, 2 bacon strips, baked beans, home fries and toast",
       "reviews": [
         "Best services yet!. The meals are on point!",
@@ -11,7 +13,7 @@
       ]
     },
     {
-        
+
     }
   ]
 }
