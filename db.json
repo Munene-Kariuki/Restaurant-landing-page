@@ -24,15 +24,38 @@
       ]
     },
     {
-      "name": "Burgers",
-      "rating": 4.3,
-      "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4135.png",
-      "price": 499,
-      "description": "Includes 400gm of beef, well toasted bun, a choice of bacon strips, omelette, ham, all or none. A choice of cheese or none.",
+      "name": "Pizza",
+      "rating": 4.6,
+      "image": "https://toppng.com/uploads/preview/pizza-png-11553999296wkku2v8cnm.png",
+      "price": 899,
+      "description": "Chicken tikka, cheese, green pepper, pizza sauce.",
       "reviews": [
-        "Had me licking my fingers for a minute there.",
-        "Indulge your taste buds with puzzles burgers."
+        "Must be the pizza",
+        "Tasty and cheesy.",
+        "It's perfect for cheese lovers and is a reasonable price!"
       ]
-    }
+    },
+    {
+      "name": "Ribs",
+      "rating": 4.1,
+      "image": "https://png.pngitem.com/pimgs/s/153-1531700_dish-food-cuisine-pork-ribs-spare-food-delmonico.png",
+      "price": 1050,
+      "description": "800g rib section, honey or chilli BBQ.",
+      "reviews": [
+        "It's finger-licking good.",
+        "If you are looking to enjoy the grills, you came to the right place."
+      ]
+    },
+    {
+        "name": "Ribs",
+        "rating": 4.1,
+        "image": "https://png.pngitem.com/pimgs/s/153-1531700_dish-food-cuisine-pork-ribs-spare-food-delmonico.png",
+        "price": 1050,
+        "description": "800g rib section, honey or chilli BBQ.",
+        "reviews": [
+          "It's finger-licking good.",
+          "If you are looking to enjoy the grills, you came to the right place."
+        ]
+      }
   ]
 }
