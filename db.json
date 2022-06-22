@@ -47,15 +47,37 @@
       ]
     },
     {
-        "name": "Ribs",
-        "rating": 4.1,
-        "image": "https://png.pngitem.com/pimgs/s/153-1531700_dish-food-cuisine-pork-ribs-spare-food-delmonico.png",
-        "price": 1050,
-        "description": "800g rib section, honey or chilli BBQ.",
-        "reviews": [
-          "It's finger-licking good.",
-          "If you are looking to enjoy the grills, you came to the right place."
-        ]
-      }
+      "name": "Biryani",
+      "rating": 4.7,
+      "image": "https://w7.pngwing.com/pngs/134/682/png-transparent-paradise-hotel-hyderabadi-biryani-hyderabadi-cuisine-indian-cuisine-kerala-biriyani-food-recipe-cuisine.png",
+      "price": 750,
+      "description": "Biryani served with chicken curry.",
+      "reviews": [
+        "Value for money definetly.",
+        "Amazing experience, satisfied my cravings."
+      ]
+    },
+    {
+      "name": "Choma",
+      "rating": 4.7,
+      "image": "https://parentsafrica.com/content/images/wordpress/2016/08/eating-at-home-1.jpg",
+      "price": 800,
+      "description": "Tantalizing grilled coriander chicken.",
+      "reviews": [
+        "Very affordable choma and can be made to your liking.",
+        "Quite robust and genuine african restaurant"
+      ]
+    },
+    {
+      "name": "Beef lovers platter.",
+      "rating": 4.4,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgRl8vD-QeSSGLRZLlRLlfAoKseCxW3p9igA&usqp=CAU",
+      "price": 1200,
+      "description": "Cured meat, olives, pilau, biryani, chapati and sauce.",
+      "reviews": [
+        "Those chapati's touched my soul.",
+        "The goat of city restaurants"
+      ]
+    }
   ]
 }
