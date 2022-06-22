@@ -13,7 +13,26 @@
       ]
     },
     {
-
+      "name": "Burgers",
+      "rating": 4.3,
+      "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4135.png",
+      "price": 499,
+      "description": "Includes 400gm of beef, well toasted bun, a choice of bacon strips, omelette, ham, all or none. A choice of cheese or none.",
+      "reviews": [
+        "Had me licking my fingers for a minute there.",
+        "Indulge your taste buds with puzzles burgers."
+      ]
+    },
+    {
+      "name": "Burgers",
+      "rating": 4.3,
+      "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4135.png",
+      "price": 499,
+      "description": "Includes 400gm of beef, well toasted bun, a choice of bacon strips, omelette, ham, all or none. A choice of cheese or none.",
+      "reviews": [
+        "Had me licking my fingers for a minute there.",
+        "Indulge your taste buds with puzzles burgers."
+      ]
     }
   ]
 }
