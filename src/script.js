@@ -1,5 +1,14 @@
 //DOM manipuation functions
-
+function populateMenu(menuObj) {
+    let menu = document.querySelector('#menuItems')
+   
+    //Create menu item
+    menuObj.map((item) => {
+        let li = document.createElement('li')
+        li.textContent = item.name
+        menu.appendChild(li)
+    })
+}
 
 
 
