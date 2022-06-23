@@ -44,7 +44,7 @@ hr {
 
 .menu>nav>ul>li {
     list-style: none;
-    padding: 5px;
+    padding: 7px;
     cursor: pointer;
 }
 
@@ -71,10 +71,14 @@ nav ul li:hover {
     margin-top: 5%;
 }
 
+#display img {
+    height: 225px;
+    width: 225px;
+}
 
 .price {
     margin-left: 60%;
-    background-color: green;
+    background-color: orange;
     width: 8%;
     color: white;
     padding: 7px;
@@ -88,9 +92,16 @@ nav ul li:hover {
     bottom: 50px;
 }
 
-#description {
+.orderBtn {
+    padding: 8px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
     margin-left: 30%;
+}
 
+#description {
+    margin-left: 25%;
 }
 
 /* .reviews  */

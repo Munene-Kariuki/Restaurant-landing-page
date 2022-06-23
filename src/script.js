@@ -12,6 +12,8 @@ function populateMenu(menuObj) {
 
 
 
+
+
 //Event listeners
 document.addEventListener('DOMContentLoaded', initializer)
 
