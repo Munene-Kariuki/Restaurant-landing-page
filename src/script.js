@@ -1,8 +1,3 @@
-//Event listeners
-document.addEventListener('DOMContentLoaded', initializer)
-document.querySelector('#orderBtn').addEventListener('click', handleOrder)
-document.querySelector('#reviewForm').addEventListener('submit', handleSubmit)
-
 //DOM manipuation functions
 //Add items on the menu
 function populateMenu(menuObj) {
@@ -34,9 +29,17 @@ function renderMenuObj(menuItem) {
     menuItem.reviews.map((review) => {
         let li = document.createElement('li')
         li.textContent = review
+        li.id = 'review'
         reviews.appendChild(li)
+        //Removes item on click
+        li.addEventListener('click', () => li.remove())
     })
 }
+
+//Event listeners
+document.addEventListener('DOMContentLoaded', initializer)
+document.querySelector('#orderBtn').addEventListener('click', handleOrder)
+document.querySelector('#reviewForm').addEventListener('submit', handleSubmit)
 
 
 //Event handlers
@@ -52,6 +55,7 @@ function handleSubmit(e) {
     li.textContent = e.target.review.value
     document.querySelector('#reviewList').appendChild(li)
     document.querySelector('#reviewForm').reset()
+    li.addEventListener('click', () => li.remove())
 }
 
 //fetch data from server
