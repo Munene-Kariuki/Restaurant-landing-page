@@ -1,3 +1,7 @@
+//Event listeners
+document.addEventListener('DOMContentLoaded', initializer)
+document.querySelector('#orderBtn').addEventListener('click', handleOrder)
+
 //DOM manipuation functions
 //Add items on the menu
 function populateMenu(menuObj) {
@@ -35,12 +39,11 @@ function renderMenuObj(menuItem) {
 }
 
 
-
-//Event listeners
-document.addEventListener('DOMContentLoaded', initializer)
-
-
-
+//Event handlers
+function handleOrder() {
+    let description = document.querySelector('#description')
+    description.textContent = 'Your order is being prepared 😄...'
+}
 
 
 //fetch data from server
