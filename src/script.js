@@ -17,6 +17,17 @@ function renderMenuObj(menuItem) {
     let price = document.querySelector('#price')
     let description = document.querySelector('#description')
     let reviews = document.querySelector('#reviewList')
+
+    name.textContent = menuItem.name
+    rating.textContent = menuItem.rating
+    image.src = menuItem.image
+    price.textContent = menuItem.price
+    description.textContent = menuItem.description
+    menuItem.reviews.map((review) => {
+        let li = document.createElement('li')
+        li.textContent = review
+        reviews.appendChild(li)
+    })
 }
 
 
@@ -38,7 +49,7 @@ function getData() {
 function getFirstObject() {
     fetch('http://localhost:3000/menuItems/1')
     .then((response) => response.json())
-    .then((data) => console.log(data))
+    .then((data) => renderMenuObj(data))
 }
 
 function initializer() {
