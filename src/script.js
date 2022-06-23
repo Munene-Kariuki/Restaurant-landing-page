@@ -1,6 +1,7 @@
 //Event listeners
 document.addEventListener('DOMContentLoaded', initializer)
 document.querySelector('#orderBtn').addEventListener('click', handleOrder)
+document.querySelector('#reviewForm').addEventListener('submit', handleSubmit)
 
 //DOM manipuation functions
 //Add items on the menu
@@ -34,7 +35,6 @@ function renderMenuObj(menuItem) {
         let li = document.createElement('li')
         li.textContent = review
         reviews.appendChild(li)
-        console.log(reviews.childElementCount)
     })
 }
 
@@ -45,6 +45,14 @@ function handleOrder() {
     description.textContent = 'Your order is being prepared 😄...'
 }
 
+//Add new reviews
+function handleSubmit(e) {
+    e.preventDefault()
+    let li = document.createElement('li')
+    li.textContent = e.target.review.value
+    document.querySelector('#reviewList').appendChild(li)
+    document.querySelector('#reviewForm').reset()
+}
 
 //fetch data from server
 function getData() {
