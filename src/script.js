@@ -60,15 +60,15 @@ function handleSubmit(e) {
 
 //fetch data from server
 function getData() {
-    fetch('http://localhost:3000/menuItems')
+    fetch('https://munene-kariuki.github.io/Restaurant-landing-page/db.json')
         .then((response) => response.json())
-        .then((data) => populateMenu(data))
+        .then((data) => populateMenu(data.menuItems))
 }
 
 function getFirstObject() {
-    fetch('http://localhost:3000/menuItems/1')
+    fetch('https://munene-kariuki.github.io/Restaurant-landing-page/db.json')
         .then((response) => response.json())
-        .then((data) => renderMenuObj(data))
+        .then((data) => renderMenuObj(data.menuItems[0]))
 }
 
 function initializer() {
