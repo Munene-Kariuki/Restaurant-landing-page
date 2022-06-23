@@ -10,7 +10,14 @@ function populateMenu(menuObj) {
     })
 }
 
-
+function renderMenuObj(menuItem) {
+    let name = document.querySelector("#name")
+    let rating = document.querySelector('#rating')
+    let image = document.querySelector('#image')
+    let price = document.querySelector('#price')
+    let description = document.querySelector('#description')
+    let reviews = document.querySelector('#reviewList')
+}
 
 
 
@@ -28,7 +35,14 @@ function getData() {
     .then((data) => populateMenu(data))
 }
 
+function getFirstObject() {
+    fetch('http://localhost:3000/menuItems/1')
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+}
+
 function initializer() {
     getData()
+    getFirstObject()
 }
 
