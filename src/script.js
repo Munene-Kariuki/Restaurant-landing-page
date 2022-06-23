@@ -11,18 +11,13 @@ function populateMenu(menuObj) {
 }
 
 function renderMenuObj(menuItem) {
-    let name = document.querySelector("#name")
-    let rating = document.querySelector('#rating')
-    let image = document.querySelector('#image')
-    let price = document.querySelector('#price')
-    let description = document.querySelector('#description')
     let reviews = document.querySelector('#reviewList')
 
-    name.textContent = menuItem.name
-    rating.textContent = menuItem.rating
-    image.src = menuItem.image
-    price.textContent = menuItem.price
-    description.textContent = menuItem.description
+    document.querySelector("#name").textContent = menuItem.name
+    document.querySelector('#rating').textContent = menuItem.rating
+    document.querySelector('#image').src = menuItem.image
+    document.querySelector('#price').textContent = menuItem.price
+    document.querySelector('#description').textContent = menuItem.description
     menuItem.reviews.map((review) => {
         let li = document.createElement('li')
         li.textContent = review
