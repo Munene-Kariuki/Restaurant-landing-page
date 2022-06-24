@@ -11,6 +11,7 @@ This is a simple application showing food offers at a restaurant. It uses HTML a
 ## Table of Content
 
 - [Description](#description)
+- [Design](#design)
 - [Behavior of the website](#siteBehavior)
 - [Development and set up](#setUp)
 - [Prerequisites](#Prerequisites)
@@ -22,6 +23,9 @@ This is a simple application showing food offers at a restaurant. It uses HTML a
 ## Description
 
 This is a restaurant landing page showing all the offers available at puzzles bar and restaurant. The application uses HTML, CSS and JS in development.
+
+## Design
+https://www.figma.com/file/CDjnqPYuZN6vMRyhK5qpk9/Restaurant-landing-page?node-id=0%3A1
 
 ## Behaviour of the website
 ### View
